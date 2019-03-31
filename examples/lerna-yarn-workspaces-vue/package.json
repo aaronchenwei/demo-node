@@ -1,0 +1,28 @@
+{
+  "name": "@aaronchenwei/lerna-yarn-workspaces-vues",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "devDependencies": {
+    "husky": "2.2.0",
+    "lerna": "3.13.4",
+    "prettier": "1.17.0",
+    "pretty-quick": "1.10.0",
+    "rimraf": "2.6.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

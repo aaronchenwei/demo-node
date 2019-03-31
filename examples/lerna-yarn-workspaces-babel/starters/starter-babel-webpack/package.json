@@ -1,0 +1,25 @@
+{
+  "name": "@aaronchenwei/starter-babel-webpack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "dependencies": {
+    "mobx": "5.9.4"
+  },
+  "devDependencies": {
+    "@aaronchenwei/babel-preset-es": "1.0.0",
+    "@aaronchenwei/eslint-config": "1.0.0",
+    "@babel/core": "7",
+    "babel-loader": "8.0.5",
+    "webpack": "4.30.0",
+    "webpack-cli": "3.3.0",
+    "webpack-node-externals": "1.7.2"
+  },
+  "scripts": {
+    "dev": "webpack --mode=development --watch",
+    "build": "webpack --mode=production",
+    "start": "yarn build && node dist/index.js",
+    "clean": "rimraf dist"
+  }
+}

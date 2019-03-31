@@ -1,0 +1,8 @@
+{
+  "extends": "@aaronchenwei/tsconfig-base",
+  "compilerOptions": {
+    "declaration": false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

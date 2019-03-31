@@ -1,0 +1,16 @@
+{
+  "name": "@aaronchenwei/babel-preset-es",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@babel/core": "7.4.3",
+    "@babel/plugin-proposal-class-properties": "7.4.0",
+    "@babel/plugin-proposal-decorators": "7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.4.3",
+    "@babel/preset-env": "7.4.3"
+  }
+}

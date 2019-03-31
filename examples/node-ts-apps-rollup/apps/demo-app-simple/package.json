@@ -1,0 +1,27 @@
+{
+  "name": "@aaronchenwei/demo-app-simple",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "dependencies": {
+    "got": "9.6.0",
+    "lodash": "4.17.11",
+    "rxjs": "6.5.2"
+  },
+  "devDependencies": {
+    "@aaronchenwei/rollup-config": "1.0.0",
+    "@aaronchenwei/tsconfig-base": "1.0.0",
+    "@aaronchenwei/tslint-config": "1.0.0",
+    "@types/got": "9.4.4"
+  },
+  "scripts": {
+    "dev": "rollup -c node:@aaronchenwei/rollup-config -w",
+    "build": "rollup -c node:@aaronchenwei/rollup-config",
+    "start": "yarn build && node dist/index.js",
+    "build:prod": "cross-env NODE_ENV=production rollup -c node:@aaronchenwei/rollup-config",
+    "start:prod": "yarn build:prod && node dist/index.js",
+    "clean": "rimraf dist .rpt2_cache"
+  }
+}

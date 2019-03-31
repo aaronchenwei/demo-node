@@ -1,0 +1,11 @@
+{
+  "extends": "@aaronchenwei/tsconfig-base",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist",
+    "declarationDir": "dist/types",
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

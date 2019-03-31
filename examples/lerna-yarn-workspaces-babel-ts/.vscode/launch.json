@@ -1,0 +1,41 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch start-typescript-parcel",
+      "cwd": "${workspaceFolder}/packages/start-typescript-parcel",
+      "program": "${workspaceFolder}/packages/start-typescript-parcel/src/index.ts",
+      "outFiles": [
+        "${workspaceFolder}/packages/start-typescript-parcel/dist/*.js"
+      ],
+      "sourceMaps": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch starter-typescript-babel-rollup",
+      "cwd": "${workspaceFolder}/packages/starter-typescript-babel-rollup",
+      "program": "${workspaceFolder}/packages/starter-typescript-babel-rollup/src/index.ts",
+      "outFiles": [
+        "${workspaceFolder}/packages/starter-typescript-babel-rollup/dist/*.js"
+      ],
+      "sourceMaps": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch starter-typescript-babel-webpack",
+      "cwd": "${workspaceFolder}/packages/starter-typescript-babel-webpack",
+      "program": "${workspaceFolder}/packages/starter-typescript-babel-webpack/src/index.ts",
+      "outFiles": [
+        "${workspaceFolder}/packages/starter-typescript-babel-webpack/dist/*.js"
+      ],
+      "sourceMaps": true
+    }
+  ]
+}

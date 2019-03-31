@@ -1,0 +1,22 @@
+{
+  "name": "@aaronchenwei/starter-babel",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "dependencies": {
+    "mobx": "5.9.4"
+  },
+  "devDependencies": {
+    "@aaronchenwei/babel-preset-es": "1.0.0",
+    "@aaronchenwei/eslint-config": "1.0.0",
+    "@babel/cli": "7.4.3",
+    "@babel/core": "7"
+  },
+  "scripts": {
+    "dev": "babel src --watch --out-dir dist --source-maps",
+    "build": "babel src --out-dir dist --source-maps",
+    "start": "yarn build && node dist/index.js",
+    "clean": "rimraf dist"
+  }
+}

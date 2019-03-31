@@ -1,0 +1,22 @@
+{
+  "name": "@aaronchenwei/starter-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mobx": "5.9.4"
+  },
+  "devDependencies": {
+    "@aaronchenwei/tsconfig-base": "1.0.0",
+    "@aaronchenwei/tslint-config": "1.0.0"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build": "tsc",
+    "start": "yarn build && node dist/index.js",
+    "clean": "rimraf dist"
+  }
+}

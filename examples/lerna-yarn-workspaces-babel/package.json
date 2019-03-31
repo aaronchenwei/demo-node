@@ -1,0 +1,28 @@
+{
+  "name": "@aaronchenwei/lerna-yarn-workspaces-babel",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "starters/*"
+    ],
+    "nohoist": [
+      "**/parcel-bundler",
+      "**/parcel-bundler/**"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "3.13.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

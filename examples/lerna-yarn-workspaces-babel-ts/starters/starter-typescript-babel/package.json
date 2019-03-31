@@ -1,0 +1,25 @@
+{
+  "name": "@aaronchenwei/starter-typescript-babel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mobx": "5.10.0"
+  },
+  "devDependencies": {
+    "@aaronchenwei/babel-preset-ts": "1.0.0",
+    "@aaronchenwei/tsconfig-base": "1.0.0",
+    "@aaronchenwei/tslint-config": "1.0.0",
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "dev": "babel src --watch --out-dir dist --extensions \".ts\" --source-maps",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "babel src --out-dir dist --extensions \".ts\" --source-maps",
+    "build": "yarn build:js && yarn build:types",
+    "start": "yarn build && node dist/index.js"
+  }
+}

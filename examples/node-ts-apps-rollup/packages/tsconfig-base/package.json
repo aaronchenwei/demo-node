@@ -1,0 +1,13 @@
+{
+  "name": "@aaronchenwei/tsconfig-base",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "tsconfig.json"
+  ],
+  "dependencies": {
+    "typescript": "3.4.5",
+    "typescript-tslint-plugin": "0.3.1"
+  }
+}

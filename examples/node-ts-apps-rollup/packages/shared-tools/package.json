@@ -1,0 +1,13 @@
+{
+  "name": "@aaronchenwei/shared-tools",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cross-env": "5.2.0",
+    "husky": "2.3.0",
+    "prettier": "1.17.1",
+    "pretty-quick": "1.10.0",
+    "rimraf": "2.6.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "extends": "@aaronchenwei/tsconfig-base",
+  "compilerOptions": {
+    "declarationDir": "dist/types",
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

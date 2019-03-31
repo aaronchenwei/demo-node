@@ -1,0 +1,41 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch starter-babel-parcel",
+      "cwd": "${workspaceFolder}/packages/starter-babel-parcel",
+      "program": "${workspaceFolder}/packages/starter-babel-parcel/src/index.js",
+      "outFiles": [
+        "${workspaceFolder}/packages/starter-babel-parcel/dist/**/*.js"
+      ],
+      "sourceMaps": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch starter-babel-rollup",
+      "cwd": "${workspaceFolder}/packages/starter-babel-rollup",
+      "program": "${workspaceFolder}/packages/starter-babel-rollup/src/index.js",
+      "outFiles": [
+        "${workspaceFolder}/packages/starter-babel-rollup/dist/**/*.js"
+      ],
+      "sourceMaps": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch starter-babel-webpack",
+      "cwd": "${workspaceFolder}/packages/starter-babel-webpack",
+      "program": "${workspaceFolder}/packages/starter-babel-webpack/src/index.js",
+      "outFiles": [
+        "${workspaceFolder}/packages/starter-babel-webpack/dist/**/*.js"
+      ],
+      "sourceMaps": true
+    }
+  ]
+}

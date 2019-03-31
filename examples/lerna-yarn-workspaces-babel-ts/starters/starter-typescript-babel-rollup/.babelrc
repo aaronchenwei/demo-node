@@ -1,0 +1,3 @@
+{
+  "presets": ["@aaronchenwei/babel-preset-ts"]
+}

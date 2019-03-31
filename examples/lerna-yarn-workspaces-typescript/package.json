@@ -1,0 +1,32 @@
+{
+  "name": "@aaronchenwei/lerna-yarn-workspaces-typescript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "starters/*"
+    ],
+    "nohoist": [
+      "**/parcel-bundler",
+      "**/parcel-bundler/**"
+    ]
+  },
+  "devDependencies": {
+    "husky": "2.3.0",
+    "lerna": "3.14.1",
+    "prettier": "1.17.1",
+    "pretty-quick": "1.11.0",
+    "rimraf": "2.6.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

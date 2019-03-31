@@ -1,0 +1,22 @@
+{
+  "name": "@aaronchenwei/stater-babel-parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mobx": "5.9.4"
+  },
+  "devDependencies": {
+    "@aaronchenwei/babel-preset-es": "1.0.0",
+    "@aaronchenwei/eslint-config": "1.0.0",
+    "@babel/core": "7",
+    "parcel-bundler": "1.12.3"
+  },
+  "scripts": {
+    "dev": "parcel watch src/index.js --target node",
+    "build": "parcel build src/index.js --target node",
+    "start": "yarn build && node dist/index.js",
+    "clean": "rimraf dist .cache"
+  }
+}

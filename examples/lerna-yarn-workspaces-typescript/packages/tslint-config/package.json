@@ -1,0 +1,14 @@
+{
+  "name": "@aaronchenwei/tslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "tslint": "5.16.0",
+    "tslint-config-prettier": "1.18.0"
+  },
+  "devDependencies": {
+    "typescript": "3.4.5"
+  }
+}

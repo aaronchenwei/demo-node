@@ -1,0 +1,26 @@
+{
+  "name": "@aaronchenwei/demo-app-simple",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "dependencies": {
+    "async": "3.0.1-0",
+    "eventemitter3": "3.1.2",
+    "lodash": "4.17.11",
+    "p-immediate": "3.1.0",
+    "p-try": "2.2.0",
+    "p-waterfall": "2.1.0"
+  },
+  "devDependencies": {
+    "@aaronchenwei/babel-preset-es": "1.0.0",
+    "@aaronchenwei/eslint-config": "1.0.0",
+    "@aaronchenwei/rollup-config": "1.0.0"
+  },
+  "scripts": {
+    "dev": "rollup -c node:@aaronchenwei/rollup-config -w",
+    "build": "rollup -c node:@aaronchenwei/rollup-config",
+    "start": "yarn build && node dist/index.js",
+    "clean": "rimraf dist"
+  }
+}
