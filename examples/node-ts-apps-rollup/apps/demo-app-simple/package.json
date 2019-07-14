@@ -7,14 +7,14 @@
   "types": "dist/types/index.d.ts",
   "dependencies": {
     "got": "9.6.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.14",
     "rxjs": "6.5.2"
   },
   "devDependencies": {
     "@aaronchenwei/rollup-config": "1.0.0",
     "@aaronchenwei/tsconfig-base": "1.0.0",
     "@aaronchenwei/tslint-config": "1.0.0",
-    "@types/got": "9.4.4"
+    "@types/got": "9.6.1"
   },
   "scripts": {
     "dev": "rollup -c node:@aaronchenwei/rollup-config -w",
