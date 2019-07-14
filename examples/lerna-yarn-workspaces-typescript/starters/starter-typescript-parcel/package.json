@@ -4,7 +4,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "mobx": "5.9.4"
+    "mobx": "5.11.0"
   },
   "devDependencies": {
     "@aaronchenwei/tsconfig-base": "1.0.0",

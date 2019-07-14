@@ -5,12 +5,12 @@
   "private": true,
   "main": "dist/index.js",
   "dependencies": {
-    "mobx": "5.9.4"
+    "mobx": "5.11.0"
   },
   "devDependencies": {
     "@aaronchenwei/babel-preset-es": "1.0.0",
     "@aaronchenwei/eslint-config": "1.0.0",
-    "@babel/cli": "7.4.3",
+    "@babel/cli": "7.5.0",
     "@babel/core": "7"
   },
   "scripts": {

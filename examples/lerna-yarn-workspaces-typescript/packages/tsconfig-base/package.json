@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "typescript": "3.4.5",
-    "typescript-tslint-plugin": "^0.3.1"
+    "typescript": "3.5.3",
+    "typescript-tslint-plugin": "^0.5.4"
   }
 }

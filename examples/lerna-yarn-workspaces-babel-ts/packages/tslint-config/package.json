@@ -5,8 +5,8 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "tslint": "5.17.0",
+    "tslint": "5.18.0",
     "tslint-config-prettier": "1.18.0",
-    "typescript": "3.5.1"
+    "typescript": "3.5.3"
   }
 }
